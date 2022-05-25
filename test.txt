@@ -1,0 +1,15 @@
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+git bash
+cd c/users/tom/onedrive/documenten/dingens/programmeren/zelf/meteoor/website_new/
+
+jekyll new --skip-bundle .
+
+gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+Replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem
+https://pages.github.com/versions/
+
+https://github.com/jekyll/jekyll/issues/8523
+bundle install
+
+bundle exec jekyll serve
+
