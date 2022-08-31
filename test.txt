@@ -5,7 +5,11 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/crea
 git bash
 cd c/users/tom/onedrive/documenten/dingens/programmeren/zelf/meteoor/website_new/
 
-jekyll new --skip-bundle .
+jekyll new --blank .
+
+bundle init
+bundle add jekyll
+bundle add webrick
 
 gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 Replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem
