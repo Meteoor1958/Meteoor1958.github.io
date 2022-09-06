@@ -1592,6 +1592,7 @@ h2.home-blog-title {
   position: relative;
   display: table;
   width: 100%;
+  background-image: url("images/Dispuut.jpg");
 }
 .hero .hero-inner {
   display: table-cell;
@@ -3814,3 +3815,4 @@ header.header nav,
 .omhuls{
   padding: 5% 20% 0% 20%;
 }
+
