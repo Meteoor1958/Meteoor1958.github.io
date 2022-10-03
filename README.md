@@ -1,6 +1,7 @@
 # Meteoor1958.github.io
 Website van Meteoor
-
+gerealiseerd door Jafet  Chin Kwie Joe 2021 en Tom Buijs 2020
+tom weet alles van jekyll en github, jafet heeft de code geschreven
 ## Running
 Open git bash in project folder
 
