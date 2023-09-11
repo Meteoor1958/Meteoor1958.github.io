@@ -4,6 +4,8 @@ https://jekyllrb.com/docs/structure/
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 git bash
 cd c/users/tom/onedrive/documenten/dingens/programmeren/zelf/meteoor/website_new/
+cd c/Users/Jafet/WebstormProjects/Meteoor1958.github.io
+
 
 jekyll new --blank .
 
