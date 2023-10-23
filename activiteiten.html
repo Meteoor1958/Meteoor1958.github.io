@@ -17,14 +17,17 @@ layout: default
 <section class="white-bg">
     <div id="beaujolais" class="container inner">
 
-        <!-- First Row: iframe and text side by side with flexbox for equal height -->
+        <!-- Row: iframe, text, and pictures side by side with flexbox for equal height -->
         <div class="row d-flex align-items-stretch">
+            <!-- iframe column -->
             <div class="col col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column">
                 <div id="shop-frame" data-url="https://shop.eventix.io/1f2d80d6-71d9-11ee-bdc3-6a57c78572ab" style="flex: 1;"></div>
                 <script src="https://shop.eventix.io/build/integrate.js"></script>
             </div>
+
+            <!-- Text and picture column -->
             <div class="col col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column">
-                <div style="flex: 1;">
+                <div>
                     <h2>De Beaujolais Primeur</h2>
                     <p> Meteoor organiseert jaarlijks de Beaujolais Primeur voor het Eindhovens Studenten Corps en haar vrienden.
                         Dit is een Frans feest waarbij de pas gemaakte Beaujolais nouveau wordt gedronken.
@@ -36,20 +39,17 @@ layout: default
                         uv-lampen, oude beeldbuizen en veel glaswerk. Hier kun je dan je je overgebleven wijnfles na consumptie tegenaan gooien.
                         Het concept wordt al sinds 2000 uitgevoerd en is elk jaar weer een groot success. </p>
                 </div>
-            </div>
-        </div>
-
-        <!-- Second Row: Pictures aligned to the right of the iframe -->
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12"></div> <!-- Empty space to align with iframe -->
-            <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card" style="width: 100%">
-                    <img class="member-img" src="images/beaujolais-nieuw.jpg" alt="beaujolais">
-                </div>
-            </div>
-            <div class="col col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card" style="width: 100%">
-                    <img class="member-img" src="images/beaujolais-oud.png" alt="beaujolais oud">
+                <div class="row mt-3">
+                    <div class="col col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="card" style="width: 100%">
+                            <img class="member-img" src="images/beaujolais-nieuw.jpg" alt="beaujolais">
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="card" style="width: 100%">
+                            <img class="member-img" src="images/beaujolais-oud.png" alt="beaujolais oud">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
