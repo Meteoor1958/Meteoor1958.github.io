@@ -17,23 +17,25 @@ layout: default
 <section class="white-bg">
     <div id="beaujolais" class="container inner">
 
-        <!-- First Row: iframe and text side by side -->
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-                <div id="shop-frame" data-url="https://shop.eventix.io/1f2d80d6-71d9-11ee-bdc3-6a57c78572ab" style="width: 100%;"></div>
+        <!-- First Row: iframe and text side by side with flexbox for equal height -->
+        <div class="row d-flex align-items-stretch">
+            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column">
+                <div id="shop-frame" data-url="https://shop.eventix.io/1f2d80d6-71d9-11ee-bdc3-6a57c78572ab" style="flex: 1;"></div>
                 <script src="https://shop.eventix.io/build/integrate.js"></script>
             </div>
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-                <h2>De Beaujolais Primeur</h2>
-                <p> Meteoor organiseert jaarlijks de Beaujolais Primeur voor het Eindhovens Studenten Corps en haar vrienden.
-                    Dit is een Frans feest waarbij de pas gemaakte Beaujolais nouveau wordt gedronken.
-                    Wij vieren dit feest traditioneel de vrijdag na de derde donderdag van de maand november.
-                    De Gamay noir druif wordt in September aan het einde van de nacht geoogst omdat de koelte ervoor
-                    zorgt dat de vruchten een zachte smaak leveren. </p>
-                <p> Tijdens het feest kan je voor een paar euro's een fles beauojolais kopen en deze kan je dan ook prima uit de fles drinken.
-                    Voor de aanvang van het feest hebben wij een prachtig décor gebouwd van pallets,
-                    uv-lampen, oude beeldbuizen en veel glaswerk. Hier kun je dan je je overgebleven wijnfles na consumptie tegenaan gooien.
-                    Het concept wordt al sinds 2000 uitgevoerd en is elk jaar weer een groot success. </p>
+            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 d-flex flex-column">
+                <div style="flex: 1;">
+                    <h2>De Beaujolais Primeur</h2>
+                    <p> Meteoor organiseert jaarlijks de Beaujolais Primeur voor het Eindhovens Studenten Corps en haar vrienden.
+                        Dit is een Frans feest waarbij de pas gemaakte Beaujolais nouveau wordt gedronken.
+                        Wij vieren dit feest traditioneel de vrijdag na de derde donderdag van de maand november.
+                        De Gamay noir druif wordt in September aan het einde van de nacht geoogst omdat de koelte ervoor
+                        zorgt dat de vruchten een zachte smaak leveren. </p>
+                    <p> Tijdens het feest kan je voor een paar euro's een fles beauojolais kopen en deze kan je dan ook prima uit de fles drinken.
+                        Voor de aanvang van het feest hebben wij een prachtig décor gebouwd van pallets,
+                        uv-lampen, oude beeldbuizen en veel glaswerk. Hier kun je dan je je overgebleven wijnfles na consumptie tegenaan gooien.
+                        Het concept wordt al sinds 2000 uitgevoerd en is elk jaar weer een groot success. </p>
+                </div>
             </div>
         </div>
 
@@ -53,6 +55,7 @@ layout: default
         </div>
     </div>
 </section>
+
 
 <section class="white-bg">
     <div id="huisfeest" class="container inner">
