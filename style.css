@@ -3824,3 +3824,23 @@ header.header nav,
   padding: 5% 20% 0% 20%;
 }
 
+.beaujolais-border {
+  border: 1px solid #eece07;
+}
+
+.beaujolais-btn {
+  background-color: #145d2c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.beaujolais-btn:hover,
+.beaujolais-btn:focus {
+  background-color: #104525;
+  color: #ffffff;
+  text-decoration: none;
+}
